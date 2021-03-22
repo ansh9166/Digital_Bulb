@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGHT ON</title>
+    
+</head>
+<body>
+    <div class="main-heading">
+<h1> can you turn the light on?</h1>
+<button onClick="document.getElementById('myImage').src='image/ONbulb.jpg' " >Turn On the Light</button>
+<img src="image/OFFbulb.jpg" alt="lightoffpic" id="myImage">
+<button onClick="document.getElementById('myImage').src='image/OFFbulb.jpg' " >Turn Off the Light</button>
+    </div>
+</body>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "inconsolata", sans-serif;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1{
+    background-color: tomato;  
+}
+
+.main-heading h2{
+      
+    margin-bottom: 20px;
+}
+
+button{
+    display: inline-block;
+    background: #f8b627;
+    color:  #f4f4f4;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 100000;
+}
+
+</style>
+</html>
